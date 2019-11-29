@@ -1,13 +1,3 @@
-﻿// 2017.09.04
-// One of the more interesting Reduce options are MAXLOC and MINLOC.  They not only will
-// return a maximum or minimum value, but also which process had the corresponding value.
-// The Barrier function is also introduced here so that things get printed out in a nice
-// neat fashion.
-
-
-// Do not run this on too many processes, as it will be hard to visually veriy the results
-// of the MAXLOC and MINLOC reduce functions.
-// qsub -q computeLocalHD.q -pe mpi 5 subfile.qsub MPI_reduce_array_maxloc_example
 
 #include <math.h>
 #include <iostream>
